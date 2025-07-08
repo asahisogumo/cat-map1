@@ -149,21 +149,6 @@
         
         .fade-in-up { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease-out, transform 0.6s ease-out; }
         .fade-in-up.is-visible { opacity: 1; transform: translateY(0); }
-        
-        @media (max-width: 768px) {
-            .header .container { flex-direction: column; gap: 15px; }
-            .header-buttons { justify-content: center; }
-            .section { padding: 60px 15px; }
-            .section-title { font-size: 2rem; }
-            .cat-grid { column-count: 1; }
-            .modal-content { width: 95%; max-height: 85vh; }
-            .modal-body { padding: 10px; }
-            .draw-tool-tools, .form-buttons { flex-direction: column; gap: 10px; align-items: stretch; }
-            .form-buttons .button { width: 100%; }
-        }
-        @media (max-width: 480px) {
-            .cat-stats { flex-direction: column; align-items: flex-start; gap: 15px; }
-        }
     </style>
 </head>
 <body>
